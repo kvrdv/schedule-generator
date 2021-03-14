@@ -35,8 +35,7 @@ function getSchedule($year, $month) {
     echo $shedule[$dayOfMonth]['workday'] . ' ' . $shedule[$dayOfMonth]['weekday'] . ', ' . $shedule[$dayOfMonth]['day'] . ' '  . $shedule[$dayOfMonth]['month'] . ' ' . $shedule[$dayOfMonth]['year'] . PHP_EOL; 
     $dayOfMonth++;    
   } while ($dayOfMonth <= $daysInMonth);
-
-  // print_r($shedule);
+  
   return $shedule;
 }
 
